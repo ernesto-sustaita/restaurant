@@ -1,0 +1,132 @@
+div.content{
+	margin-top: 60px;
+	padding: 10px;
+}
+
+/* Barra de navegación */
+i.notificacion {
+	color: gray;
+	padding: 5px;
+	width: 50px;
+	text-align: center;
+	font-size: larger;
+}
+
+#saludo {
+	color: gray;
+	padding: 8px;
+	font-weight: bold;
+}
+
+#overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+    display:none;
+}
+
+#notificaciones {
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	width: 30rem;
+	height: 25rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+	border-radius: 5px;
+	overflow-y: scroll;
+	z-index: 100;
+	display:none;
+}
+
+@media only screen and (max-width: 770px) {
+  #notificaciones {
+    top: 190px;
+    left: 50px;
+  }
+}
+
+/* Tablas */
+
+.encabezado-catalogo{
+	background-image: linear-gradient(black, gray);
+	color:white;
+}
+
+td > button, td > a {
+	margin-right: 5px;
+}
+
+/* Inputs */
+
+input.numero-mini{
+	width:60px;
+	margin-right: 4px;
+}
+
+/* */
+#acciones {
+	margin-bottom: 5px;
+}
+
+i.icono-boton{
+	color:white;
+	padding:5px;
+}
+
+#mensaje {
+	font-weight: bold;
+	text-align: center;
+	display:none;
+}
+
+.informacion-obligatoria {
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.obligatoria{
+	font-weight: bold;
+}
+
+/* Comandas */
+
+#comanda {
+	background-image: url(../img/fondo-nota.png);
+	border-radius: .25rem;
+	padding: .50rem;
+	font-weight: bold;
+	font-size: large;
+	text-shadow: 2px 2px white;
+}
+
+#filtros-comandas {
+	margin-bottom:5px;
+}
+
+.tarjeta-producto {
+	margin-bottom: 5px;
+}
+
+.tarjeta-producto:hover {
+	cursor: pointer;
+	background-color: #a4a5a6 !important;
+}
+
+#busqueda-cliente{
+	margin-bottom:10px;
+}
+
+#resultados-clientes{
+	list-style-type: none;
+	display:none;	
+}
+
+.producto-oculto{
+	display:none;
+}
