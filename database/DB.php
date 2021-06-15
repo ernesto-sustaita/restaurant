@@ -38,7 +38,7 @@ class DB
      */
     protected function __construct()
     {
-        $this->mysqli = new \MySQLI('localhost', 'usuario_pos', 'YssqnsN_2021', 'pos');
+        $this->mysqli = new \MySQLI('server', 'user', 'password', 'database');
         $this->mysqli->set_charset('utf8');
     }
     
